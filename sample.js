@@ -104,3 +104,13 @@ console.log(string1);
 //adding string & number
 let room="room no"+5;
 console.log(room);
+//comparison operator
+var no1=5;
+var no2=10;
+console.log(no1==no2);
+console.log(no1===no2);
+console.log(no1!=no2);
+console.log(no1>no2);
+console.log(no1>=no2);
+console.log(no1<no2);
+console.log(no1<=no2);
