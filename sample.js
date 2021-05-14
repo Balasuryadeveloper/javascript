@@ -33,4 +33,8 @@ const num1=Number.MIN_SAFE_INTEGER;
 console.log(num1);
 const num2=Number.MAX_SAFE_INTEGER;
 console.log(num2);
+//string
+let str="This is string";
+console.log(str);
+console.log(typeof(str));
 
