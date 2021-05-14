@@ -49,4 +49,58 @@ let str5="Welcome to \t javascript programming";
 console.log(str3);
 console.log(str4);
 console.log(str5);
-
+//Arithmetic operators
+//Addition
+var a1,b1,c1;
+a1=10;
+b1=20;
+c1=a1+b1;
+console.log("sum of a1+b1 :"+c1);
+//subtraction
+var a2,b2,c2;
+a2=10;
+b2=20;
+c2=a2-b2;
+console.log("sub of a1-b1 :"+c2);
+//multiply
+var a2,b2,c2;
+a2=10;
+b2=20;
+c2=a2*b2;
+console.log("multiplying of a1*b1 :"+c2);
+//division
+var a2,b2,c2;
+a2=10;
+b2=20;
+c2=b2/a2;
+console.log("divid b1/a1 :"+c2);
+//modulus
+var a2,b2,c2;
+a2=10;
+b2=21;
+c2=b2%a2;
+console.log("modulus of b1%a1 :"+c2);
+//exponential
+var a2,b2,c2;
+a2=5;
+b2=2;
+c2=b2**a2;
+console.log("power of b1^a1 :"+c2);
+//increment & decreament
+var a2=10;
+a2++;     //a2=10+1
+console.log(a2); //a2=11
+a2--;    //a2=11-1
+console.log(a2);//a2=10
+//string operator
+let string1="welcome to"
+let string2="javascript programming"
+let string3=string1+string2;
+let string4=string1+" "+string2;
+string1+="\'javascript\'";
+console.log(str3);
+console.log(string4);
+console.log(string1);
+//adding string & number
+let room="room no"+5;
+console.log(room);
