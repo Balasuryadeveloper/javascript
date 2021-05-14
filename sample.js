@@ -15,5 +15,9 @@ c=a+b;
 console.log(c);
 //find the variable type
 var a=1;
+let name='Balasurya';
+let n=5.48;
 console.log(typeof(a));
+console.log(typeof(name));
+console.log(typeof(n));
 
