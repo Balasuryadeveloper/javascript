@@ -20,4 +20,17 @@ let n=5.48;
 console.log(typeof(a));
 console.log(typeof(name));
 console.log(typeof(n));
+//exponantial
+const num=5.6e6;
+console.log(num);
+//infinity value
+const i=Infinity;
+const i1=-Infinity;
+console.log("This is plus "+i);
+console.log("This is minus "+i1);
+//min & max Integer
+const num1=Number.MIN_SAFE_INTEGER;
+console.log(num1);
+const num2=Number.MAX_SAFE_INTEGER;
+console.log(num2);
 
