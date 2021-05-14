@@ -114,3 +114,50 @@ console.log(no1>no2);
 console.log(no1>=no2);
 console.log(no1<no2);
 console.log(no1<=no2);
+//Control Statement
+//if condition
+var number1,number2;
+number1=20;
+number2=40;
+if (number1 < number2) {
+    console.log("number2 is big value");
+}
+//if else statement
+var number1,number2;
+number1=50;
+number2=70;
+if (number1 > number2) {
+    console.log("number1 is big value");
+}
+else{
+    console.log("number2 is big value")
+}
+//else if statement
+var number1=50;
+var number2=100;
+var number3=10;
+if (number1 > number2 && number1 > number3) {
+    console.log("number1 is big value");
+}
+else if(number2 > number1 && number2 > number3){
+    console.log("number2 is big value");
+}
+else{
+    console.log("number3 is big value")
+}
+//switch case statement
+var stuname="Balasurya";
+switch (stuname) {
+    case "Balasurya":
+        console.log("Studentname :"+stuname);
+        break;
+        case "Kowshick":
+            console.log("Studentname :"+stuname);
+            break;
+        case "Hossana":
+            console.log("Studentname :"+stuname);
+            break;
+        default:
+            console.log("Student name isn\'t found");
+            break;
+}
