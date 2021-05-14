@@ -167,3 +167,28 @@ switch (stuname) {
             console.log("Student name isn\'t found");
             break;
 }
+var mark = 45;
+if (mark >=91 && mark <=100) {
+    console.log("AA grade");
+}
+else if (mark >=81 && mark <=90) {
+    console.log("AB grade");
+}
+else if (mark >=71 && mark <=80) {
+    console.log("BB grade");
+}
+else if (mark >=61 && mark <=70) {
+    console.log("CC grade");
+}
+else if (mark >=51 && mark <=60) {
+    console.log("DD grade");
+}
+else if (mark >=41 && mark <=50) {
+    console.log("EE grade");
+}
+else if (mark >=35 && mark <=40) {
+    console.log("FF grade");
+}
+else{
+    console.log("fail");
+}
