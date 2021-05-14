@@ -35,6 +35,18 @@ const num2=Number.MAX_SAFE_INTEGER;
 console.log(num2);
 //string
 let str="This is string";
+let str1="Welcome to 'javascript' programming";
+let str2="Welcome to \"javascript\" programming";
 console.log(str);
 console.log(typeof(str));
+console.log(str1);
+console.log(str2);
+//multiline string
+let str3="Welcome to \n\javascript programming";
+let str4=`Welcome to 
+javascript programming`;
+let str5="Welcome to \t javascript programming";
+console.log(str3);
+console.log(str4);
+console.log(str5);
 
