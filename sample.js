@@ -104,6 +104,11 @@ console.log(string1);
 //adding string & number
 let room="room no"+5;
 console.log(room);
+//Boolean operators
+var Bool1=true;
+var Bool2=false;
+console.log(typeof(Bool1));
+console.log(typeof(Bool2));
 //comparison operator
 var no1=5;
 var no2=10;
@@ -114,7 +119,8 @@ console.log(no1>no2);
 console.log(no1>=no2);
 console.log(no1<no2);
 console.log(no1<=no2);
-//Control Statement
+//Control Statements
+//condition statements
 //if condition
 var number1,number2;
 number1=20;
