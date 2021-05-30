@@ -248,4 +248,8 @@ while (k<=10) {
     console.log("welcome");
     k++;
 }
-
+//for Loop
+var nums=0;
+for (let i = 0; i < 10; i++) {
+    console.log("Welcome to Javascript Programming");
+}

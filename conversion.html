@@ -5,44 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="sample.js"></script>
 </head>
 <body>
-    <h1><center>Conversion in javascript</center></h1>
-    <script type="text/javascript">
-    var a=prompt("enter a value"); //string type
-    console.log(a);
-    console.log(typeof(a));
-    //number type
-    var b =Number("5");   //string to number
-    console.log(typeof b);
-    var str=String(5);
-    console.log(typeof str); //string type
-    var bool=Boolean(5);
-    console.log(typeof bool);
-    var name="balasurya";
-    console.log(typeof parseInt(name)); //string to number using parseInt
-    var name1="balasurya";
-    console.log(typeof parseFloat(name1));//string to float using parseInt
-    //function
-    //named function
-    function add(a,b) {
-        return a+b;
-    }
-    console.log(add(7,9));
-    //anonymous function
-    var e=function(c,d) {
-        return c-d;
-    }
-    console.log(e(10,8));
-    //setTimeout function
-    setTimeout(function (){console.log("this is anonymous function")},2000) //this sentence will displayed after 2000ms
-    //Constructor function
-    var num=new Function("a","b","c","return a*b*c;");
-    console.log(num(8,3,2));
-    //self invoking fuction
-    (function(f,g){
-        console.log(f*g);
-    })(2,6);
-    </script>
+    <h1>JavaScript Programming</h1>
 </body>
 </html>
