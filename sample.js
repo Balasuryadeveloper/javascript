@@ -192,3 +192,60 @@ else if (mark >=35 && mark <=40) {
 else{
     console.log("fail");
 }
+//without parameter
+function process() {
+    var a=11;
+    var b=10;
+    console.log(a);
+    console.log(b);
+}
+process();
+
+//withparameter
+function process1(a,b) {
+    var a,b;
+    console.log(a);
+    console.log(b);
+}
+process1(10,30);
+
+//funtion with return value
+function Rprocess() {
+    return 200;
+}
+var a=Rprocess();
+console.log(a);
+//or
+console.log(Rprocess());
+
+//function overloading
+
+//it has same function name but diff parameters
+//you can use it many more files but can't use in single file
+function Rprocess(a,b) {
+    return a,b;
+}
+function Rprocess(a,b,c) {
+    return a+b+c;
+}
+function Rprocess(a,b,c,d) {
+    return a+b+c+d;
+}
+Rprocess(100,200);
+console.log(Rprocess());
+
+//Looping statement
+//do while
+var h=0;
+do {
+    console.log("welcome to js");
+    h++;
+} while (h<=10);
+
+//while
+var k=1;
+while (k<=10) {
+    console.log("welcome");
+    k++;
+}
+
