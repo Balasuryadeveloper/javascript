@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var month=new Array(12);
+        month[0]="Jan"
+        month[1]="Feb"
+        month[2]="Mar"
+        month[3]="Apr"
+        month[4]="May"
+        month[5]="Jun"
+        month[6]="July"
+        month[7]="Aug"
+        month[8]="Sep"
+        month[9]="Act"
+        month[10]="Nov"
+        month[11]="Dec"
+        var day=new Array(7);
+        day[0]="Sun";
+        day[1]="Mon";
+        day[2]="Tue";
+        day[3]="Wed";
+        day[4]="Thr";
+        day[5]="Fri";
+        day[6]="Sat";
+        function date(a){
+            var date=a.getdate();
+            var day=days[a.getDay()];
+          alert(day+" "+date);
+        }
+        date();
+    </script>
+</head>
+<body>
+    <table>
+        <tr>
+           <td> Today Date :</td><td><p id="date"></p></td>
+        </tr>
+        <tr>
+            <td> day :</td><td><p id="days"></p></td>
+         </tr>
+    </table>
+<script>
+    document.write(date(new Date()));
+</script>    
+</body>
+</html>

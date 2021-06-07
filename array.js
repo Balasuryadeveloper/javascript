@@ -1,0 +1,16 @@
+var a=[1,2,3,4,5]
+var b=[6,7,8,9]
+console.log(a.concat(b))
+console.log(a.copyWithin(2,0))
+console.log(a.fill(10,0))
+console.log(a.lastIndexOf())
+console.log(a.length)
+console.log(a.pop())
+console.log(b.reverse())
+console.log(b.slice(0,2))
+console.log(b.sort())
+console.log(b.flat())
+console.log(b.includes(7,1))
+console.log(b.shift())
+console.log(b.splice(1))
+console.log(b.unshift(4))
